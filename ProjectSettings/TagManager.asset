@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Block
   - Ground
+  - Collectable
   layers:
   - Default
   - TransparentFX
