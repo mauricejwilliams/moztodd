@@ -12,7 +12,7 @@ public class Fetilizeland : MonoBehaviour
 
     public void tillerMud (bool yes) 
     {
-        if (yes == true)
+        if (yes)
         {
             Mud.SetActive(false);
             tillered.SetActive(true);

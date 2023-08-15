@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3695853813497662606}
   m_Layer: 0
   m_Name: tillered
-  m_TagString: Block
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,6 +93,10 @@ PrefabInstance:
     - target: {fileID: 2129574892161476209, guid: 04b283cad962eee40bf5d5c6feff6e83, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.496
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312609443366214163, guid: 04b283cad962eee40bf5d5c6feff6e83, type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2783155720647321181, guid: 04b283cad962eee40bf5d5c6feff6e83, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -183,7 +187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Mud: {fileID: 9184225089247680556}
   tillered: {fileID: 7557018564337022029}
-  Timer: 0
 --- !u!4 &8391049360476487746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8281966714582360744, guid: 04b283cad962eee40bf5d5c6feff6e83, type: 3}
